@@ -5,7 +5,20 @@ import base64
 gn = Gerencianet(CREDENTIALS)
 
 params = {
-    'id': 1
+    'id': 1,
+  "calendario": {
+    "expiracao": 3600
+  },
+  "devedor": {
+    "cpf": "07490113512",
+    "nome": "Lucas da Silva dos Santos"
+  },
+  "valor": {
+    "original": "0.02"
+  },
+  "chave": "71cdf9ba-c695-4e3c-b010-abb521a3f1be",
+  "solicitacaoPagador": "Informe o número ou identificador do pedido."
+
 }
 
 response =  gn.pix_generate_QRCode(params=params)
