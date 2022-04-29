@@ -4,7 +4,7 @@ from credentials import CREDENTIALS
 gn = Gerencianet(CREDENTIALS)
 
 params = {
-    'txid': ''
+    'txid': 'fc9a4366ff3d4964b5dbc6c91a8722d3'
 }
 
 body = {
@@ -12,13 +12,13 @@ body = {
         'expiracao': 3600
     },
     'devedor': {
-        'cpf': '',
-        'nome': ''
+        'cpf': '07490113512',
+        'nome': 'Lucas da Silva dos Santos'
     },
     'valor': {
         'original': '0.50'
     },
-    'chave': '',
+    'chave': '71cdf9ba-c695-4e3c-b010-abb521a3f1be',
     'solicitacaoPagador': 'Cobrança dos serviços prestados.'
 }
 

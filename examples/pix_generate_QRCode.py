@@ -10,7 +10,7 @@ params = {
     "expiracao": 3600
   },
   "devedor": {
-    "cpf": "07490113512",
+    "cpf": "0749011wdawd3512",
     "nome": "Lucas da Silva dos Santos"
   },
   "valor": {
